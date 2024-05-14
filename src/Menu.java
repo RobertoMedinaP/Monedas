@@ -39,7 +39,7 @@ public class Menu {
                     monto = Double.parseDouble(scanner.nextLine());
                     tasaDeCambio = Apiconexion.obtenerTasaDeCambio(moneda1, moneda2, monto);
                     montoConvertido = monto * tasaDeCambio;
-                    System.out.println(monto + moneda1 +" " + " son " + montoConvertido+ " " + moneda2);
+                    System.out.println(monto +" "+ moneda1 +" " + " son " + montoConvertido+ " " + moneda2);
                     break;
                 case 2:
                     moneda1="USD";
@@ -48,7 +48,7 @@ public class Menu {
                     monto = Double.parseDouble(scanner.nextLine());
                     tasaDeCambio = Apiconexion.obtenerTasaDeCambio(moneda1, moneda2, monto);
                     montoConvertido = monto * tasaDeCambio;
-                    System.out.println(monto + moneda1 +" " + " son " + montoConvertido+ " " + moneda2);
+                    System.out.println(monto +" "+ moneda1 +" " + " son " + montoConvertido+ " " + moneda2);
                     break;
                 case 3:
                     moneda1="CLP";
@@ -57,7 +57,7 @@ public class Menu {
                     monto = Double.parseDouble(scanner.nextLine());
                     tasaDeCambio = Apiconexion.obtenerTasaDeCambio(moneda1, moneda2, monto);
                     montoConvertido = monto * tasaDeCambio;
-                    System.out.println(monto + moneda1 +" " + " son " + montoConvertido+ " " + moneda2);
+                    System.out.println(monto +" "+ moneda1 +" " + " son " + montoConvertido+ " " + moneda2);
                     break;
                 case 4:
                     moneda1="EUR";
@@ -66,7 +66,7 @@ public class Menu {
                     monto = Double.parseDouble(scanner.nextLine());
                     tasaDeCambio = Apiconexion.obtenerTasaDeCambio(moneda1, moneda2, monto);
                     montoConvertido = monto * tasaDeCambio;
-                    System.out.println(monto + moneda1 +" " + " son " + montoConvertido+ " " + moneda2);
+                    System.out.println(monto +" "+ moneda1 +" " + " son " + montoConvertido+ " " + moneda2);
                     break;
                 case 5:
                     moneda1="CLP";
@@ -75,7 +75,7 @@ public class Menu {
                     monto = Double.parseDouble(scanner.nextLine());
                     tasaDeCambio = Apiconexion.obtenerTasaDeCambio(moneda1, moneda2, monto);
                     montoConvertido = monto * tasaDeCambio;
-                    System.out.println(monto + moneda1 +" " + " son " + montoConvertido+ " " + moneda2);
+                    System.out.println(monto +" "+ moneda1 +" " + " son " + montoConvertido+ " " + moneda2);
                     break;
                 case 6:
                     moneda1="ARS";
@@ -84,7 +84,7 @@ public class Menu {
                     monto = Double.parseDouble(scanner.nextLine());
                     tasaDeCambio = Apiconexion.obtenerTasaDeCambio(moneda1, moneda2, monto);
                     montoConvertido = monto * tasaDeCambio;
-                    System.out.println(monto + moneda1 +" " + " son " + montoConvertido+ " " + moneda2);
+                    System.out.println(monto +" "+ moneda1 +" " + " son " + montoConvertido+ " " + moneda2);
                     break;
                 case 7:
                     System.out.println("¡Adios! Gracias por usar el conversor de monedas");
